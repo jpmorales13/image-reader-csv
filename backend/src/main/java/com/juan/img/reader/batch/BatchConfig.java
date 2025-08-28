@@ -49,6 +49,9 @@ public class BatchConfig {
                 .reader(reader)
                 .processor(processor())
                 .writer(writer)
+                .faultTolerant()
+                .skipLimit(2)
+                .skip(Exception.class)
                 .build();
     }
 

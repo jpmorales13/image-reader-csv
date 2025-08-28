@@ -12,7 +12,7 @@ docker compose build
 docker compose up
 ```
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:8080/api
+- Backend API: http://localhost:8080/
 - Postgres: localhost:5432 (user: `app`, password: `app`, db: `appdb`)
 
 ### CSV format
